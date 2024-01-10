@@ -27,9 +27,8 @@ export class ItensListaComponent implements OnInit {
   constructor(private service: ItensService) {}
 
   ngOnInit(): void {
-    this.service.listar().subscribe((itens) => {
+    this.service.listar().subscribe((itens: Item[]) => {
       this.listaItens = itens;
-      this.numItens = itens.length;
       this.verificar();
     });
   }
@@ -55,6 +54,8 @@ export class ItensListaComponent implements OnInit {
   }
 
   atualiza() {
-    this.service.listar().subscribe();
+    this.service.listar().subscribe((itens: Item[]) => {
+      this.listaItens = itens;
+    });
   }
 }

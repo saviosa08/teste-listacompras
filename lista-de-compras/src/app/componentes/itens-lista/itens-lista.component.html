@@ -21,6 +21,7 @@
     <app-item
     *ngIf="lista.check"
     [item]="lista"
+    (excluir)="atualiza()"
     (verificar)="verificar()"
     ></app-item>
   </div>

@@ -11,29 +11,22 @@
       "descricao": "Macarrão Teste",
       "qtd": "10",
       "und": "kg",
-      "check": true,
+      "check": false,
       "id": 4
     },
     {
-      "descricao": "Batata",
-      "qtd": "2",
-      "und": "kg",
+      "descricao": "Batata Doce",
+      "qtd": "3",
+      "und": "un",
       "check": false,
       "id": 5
     },
     {
-      "descricao": "Teste",
-      "qtd": "1",
-      "und": "un",
-      "check": true,
-      "id": 6
-    },
-    {
       "descricao": "Beterraba",
-      "qtd": 2,
+      "qtd": "10",
       "und": "kg",
       "check": false,
-      "id": 7
+      "id": 6
     }
   ]
 }
